@@ -1,0 +1,89 @@
+/* class selectior */
+.name {
+    padding: 10px 0 10px 10px;
+    background-color: #DC143C;
+    font-size: 18px;
+    color:white
+  }
+
+  /* ID selector */
+  #hometown {
+    padding: 10px 0 10px 10px;
+    background-color: #008B8B;
+    font-size: 18px;
+    color:white
+  }
+  #about{
+    padding: 10px 0 10px 10px;
+    background-color: #DC143C;
+    font-size: 18px;
+    color:white
+  }
+
+  /* element selectior */
+  p{
+    padding: 10px 0 10px 10px;
+    background-color: #008B8B;
+    font-size: 18px;
+    color:white
+  }
+  /* element selector  */
+    span{
+    padding: 10px 0 10px 10px;
+    background-color: #DC143C;
+    font-size: 18px;
+    color:white
+  }
+  /* element.class selector */
+p .text{
+    background-color:#008B8B;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    color:black;
+}
+/* element, element selector */
+h2,h3{
+    padding: 10px 0 10px 10px;
+    background-color: #DC143C;
+    font-size: 18px;
+    color:white
+}
+/* element1~element2 Selector */
+p ~ ul{
+    padding: 10px 0 10px 10px;
+    background-color: #008B8B;
+    font-size: 18px;
+    color:white
+}
+
+/* Demo of the [attribute] selecto */
+a[target] {
+    background-color: #DC143C;
+  }
+
+  /* [attribute|=value] selector */
+
+  p [lang|="en"] {
+    background-color: #008B8B;
+  }
+
+  div[class^="test"] {
+    padding: 10px 0 10px 10px;
+    background-color: #DC143C;
+    font-size: 18px;
+    color:white
+  }
+  /* the :active selector */
+  a:active {
+    background-color: #008B8B;
+  }
+
+  /* Demo of the ::after selector */
+
+  .myname::after { 
+    content: " - Remember this";
+  }
+  .myname2::before { 
+    content: " = Remember this ";
+  }
